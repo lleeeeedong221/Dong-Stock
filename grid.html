@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        #grid{
+            border:5px solid palevioletred;
+            display: grid; /*표시가 될지 안될지 등을 정하는 것.*/
+            grid-template-columns: 150px 2fr 1fr; /*1fr은 자동으로 나머지 크기에 맞춰 조절된다.*/
+        }
+        div{
+            border: 5px solid gray;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- 제목이라는 의미가 없고, 아무 의미가 없는 태그 -->
+    <div id='grid'>
+        <div> Navigation </div>
+        <div> 내가 해당하는 CSS문법을 사용할 수 있는지를 보려면
+            can i use.com 이라는 사이트에서 검색을 해보면 된다. 
+        </div>
+    
+        <div> Thirds </div>
+    </div>
+    
+</body>
+</html>
